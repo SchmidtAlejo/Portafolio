@@ -1,0 +1,9 @@
+.about-me {
+  height: 500px;
+  padding: 10px;
+}
+
+.about-me .container-custom {
+  max-width: 600px;
+  text-align: center;
+}

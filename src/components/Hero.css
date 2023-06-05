@@ -1,0 +1,35 @@
+.hero {
+  background-color: var(--color-white-custom);
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: var(--color-gray-custom);
+}
+
+.hero-principal h1 {
+  font-family: "Rubik Dirt", cursive;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+        max-width: 600px;
+  }
+}
