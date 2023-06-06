@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    base: "/Portafolio/",
+    base: "https://schmidtalejo.github.io/Portafolio",
   },
 });
