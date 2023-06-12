@@ -12,13 +12,17 @@
 }
 
 .proyectos-recientes img {
+  max-height: 160px;
   height: 100%;
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
 }
+
+.project-container .row div{
+  margin: auto 0px;
+} 
 
 .project-container {
   padding-top: 60px;
@@ -58,6 +62,19 @@
   color: #000;
   font-size: 50px;
   margin: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .proyectos-recientes img{
+    max-height: 290px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .proyectos-recientes img{
+    max-width: 300px;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 400px) {
