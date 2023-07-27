@@ -1,6 +1,6 @@
 import React from "react";
-import perfil from "./../assets/perfil.jpg";
-import monitor from "./../assets/hero-inferior.svg";
+import perfil from "../assets/perfil.jpg";
+import monitor from "../assets/hero-inferior.svg";
 import './Hero.css'
 
 export default function Hero() {

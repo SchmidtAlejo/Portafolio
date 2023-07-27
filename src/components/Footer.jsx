@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import icono from "./../assets/icono-blanco.svg";
+import icono from "../assets/icono-blanco.svg";
 
 export default function Footer() {
   return (
@@ -25,9 +25,6 @@ export default function Footer() {
           rel={"noopener noreferrer"}
         >
           <i className="bi bi-github"></i>
-        </a>
-        <a href="https://www.instagram.com/aleschmdt/" target="_blank" rel={"noopener noreferrer"}>
-          <i className="bi bi-instagram"></i>
         </a>
         <a href="mailto:schmidtalejo@gmail.com" target="_blank" rel={"noopener noreferrer"}>
           <i className="bi bi-envelope"></i>
