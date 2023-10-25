@@ -7,8 +7,8 @@ export default function About() {
       <div className="container-custom">
         <h2 className="section-title">Conoce a Alejo Schmidt</h2>
         <p className="text-section">
-          Hola soy Alejo, soy analista de sistemas y estoy en busca de mi primer
-          empleo como desarrollador. Durante mis estudios, aprendí a realizar
+          Hola soy Alejo, soy desarrollador frontend y estoy en busca de mi primer
+          empleo como programador. Durante mis estudios, aprendí a realizar
           diferentes aplicaciones tanto de Back end como Front end, sitios web,
           aplicaciones Mobile y APIs.
         </p>
