@@ -1,10 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./Projects.css";
 import { Container, Col, Row, Button } from "react-bootstrap";
 import projects from "../helpers/projects";
 
 export default function Projects() {
   const renderProject = (project) => {
+    console.log(project.hrefGitHub);
     return (
       <Col md={6} lg={4} key={project}>
         <div className="project">
@@ -12,20 +13,29 @@ export default function Projects() {
           <div className="overlay">
             <p>{project.projectName}</p>
             <div className="icons-contanier">
-              <a
-                href={project.hrefGitHub}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-github"></i>
-              </a>
-              <a
-                href={project.hrefProject}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-laptop"></i>
-              </a>
+              {
+                project.hrefGitHub !== undefined ?
+                  <a
+                    href={project.hrefGitHub}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-github"></i>
+                  </a> :
+                  <Fragment />
+
+              }
+              {
+                project.hrefProject !== undefined ?
+                  <a
+                    href={project.hrefProject}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-laptop"></i>
+                  </a>:
+                  <Fragment />
+              }
             </div>
           </div>
         </div>

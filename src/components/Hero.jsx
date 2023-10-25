@@ -1,5 +1,5 @@
 import React from "react";
-import perfil from "../assets/perfil.jpg";
+import perfil from "../assets/perfil.webp";
 import monitor from "../assets/hero-inferior.svg";
 import './Hero.css'
 
