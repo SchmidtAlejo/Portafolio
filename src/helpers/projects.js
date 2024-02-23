@@ -1,9 +1,23 @@
 import rmWebAppImage from "./../assets/rm-web-app.webp";
 import eldenRingPageImage from "./../assets/elden-ring-page.webp";
 import pawSearchImage from "./../assets/paw-search.webp";
+import crazyTech from "./../assets/crazy-tech.webp";
+import market from "./../assets/market.webp";
 
 
 export default [
+  {
+    src: market,
+    projectName: "Market Web",
+    hrefGitHub: "https://github.com/SchmidtAlejo/Market-web",
+    hrefProject: "https://market-web-rust.vercel.app",
+  },
+  {
+    src: crazyTech,
+    projectName: "Crazy Tech",
+    hrefGitHub: "https://github.com/SchmidtAlejo/ProyectoJsCoderhouse",
+    hrefProject: "https://proyecto-js-coderhouse-kohl.vercel.app",
+  },
   {
     src: eldenRingPageImage,
     projectName: "Elden Ring | Sitio Web Informativo",
@@ -21,12 +35,6 @@ export default [
     projectName: "RecipesApp",
     hrefGitHub: "https://github.com/SchmidtAlejo/Recipe-Mobile-App",
     hrefProject: "https://docs.google.com/presentation/d/1XH2TI2cq_bhtNGsdwuEA9504YeK7ggoe/edit?usp=sharing&ouid=112685810969427799174&rtpof=true&sd=true",
-  },
-  {
-    src: "https://c4.wallpaperflare.com/wallpaper/152/633/174/rick-and-morty-wallpaper-preview.jpg",
-    projectName: "Rick And Morty App",
-    hrefGitHub: "https://github.com/SchmidtAlejo/RickAndMortyAndroidMobileApp",
-    hrefProject: "https://docs.google.com/presentation/d/1bWYDD6uMLDwPwpVBpGjG0rd1Mo3vJKgf/edit?usp=sharing&ouid=112685810969427799174&rtpof=true&sd=true",
   },
   {
     src: pawSearchImage,
